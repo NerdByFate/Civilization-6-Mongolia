@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="4IB5360c-2J60-BBdj-hBfF-1aBG002h2jCH" version="1">
+	<Properties>
+		<Name>LOC_MONGOLIA_TITLE</Name>
+		<Teaser>LOC_MONGOLIA_TEASER</Teaser>
+		<Description>LOC_MONGOLIA_DESC</Description>
+		<Authors>LOC_MONGOLIA_AUTHOR</Authors>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="MONGOLIA_COMPONENT">
+			<Items>
+				<File>Mongolia_Buildings.xml</File>
+				<File>Mongolia_Civilizations.xml</File>
+				<File>Mongolia_Colours.xml</File>
+				<File>Mongolia_Gossip.xml</File>
+				<File>Mongolia_Leaders.xml</File>
+				<File>Mongolia_PlayerColours.xml</File>
+				<File>Mongolia_Units.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText id="MONGOLIA_TEXT">
+			<Items>
+				<File>Mongolia_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Components>
+	<Settings>
+		<Custom id="MONGOLIA_SETTING">
+			<Items>
+				<File>Mongolia_Config.xml</File>
+			</Items>
+		</Custom>
+		<LocalizedText id="MONGOLIA_SETTING_TEXT">
+			<Items>
+				<File>Mongolia_Config_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Settings>
+	<LocalizedText>
+		<Text id="LOC_MONGOLIA_TITLE">
+			<en_US>Mongol Civilization</en_US>
+		</Text>
+		<Text id="LOC_MONGOLIA_TEASER">
+			<en_US>Dominate Asia as the Mongols.</en_US>
+		</Text>
+		<Text id="LOC_MONGOLIA_DESC">
+			<en_US>A mod that adds the Mongol Civilization led by Genghis Khan</en_US>
+		</Text>
+		<Text id="LOC_MONGOLIA_AUTHOR">
+			<en_US>NerdByFate</en_US>
+		</Text>
+	</LocalizedText>
+	<Files>
+		<File>Mongolia_Buildings.xml</File>
+		<File>Mongolia_Config.xml</File>
+		<File>Mongolia_Config_Text.xml</File>
+		<File>Mongolia_Civilizations.xml</File>
+		<File>Mongolia_Colours.xml</File>
+		<File>Mongolia_Gossip.xml</File>
+		<File>Mongolia_Leaders.xml</File>
+		<File>Mongolia_PlayerColours.xml</File>
+		<File>Mongolia_Text.xml</File>
+		<File>Mongolia_Units.xml</File>
+	</Files>
+</Mod>
