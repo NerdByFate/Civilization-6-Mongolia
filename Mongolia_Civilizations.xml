@@ -50,18 +50,6 @@
 			<Value>+7 combat strength vs. city-states.</Value>
 		</Row>
 	</ModifierArguments>
-	<RequirementSets>
-		<Row>
-			<RequirementSetId>REQUIREMENTS_OPPONENT_IS_MINOR_CIV</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>
-	</RequirementSets>
-	<RequirementSetRequirements>
-		<Row>
-			<RequirementSetId>REQUIREMENTS_OPPONENT_IS_MINOR_CIV</RequirementSetId>
-			<RequirementId>REQUIRES_OPPONENT_IS_MINOR_CIV</RequirementId>
-		</Row>
-	</RequirementSetRequirements>
 	<ModifierStrings>
 		<Row ModifierId="COMBAT_CITY_STATE_BONUS_MODIFIER" Context="Preview" Text="LOC_PROMOTION_CITY_STATE_COMBAT_DESCRIPTION"/>
 	</ModifierStrings>
@@ -100,7 +88,7 @@
 		<Row CivilizationType="CIVILIZATION_MONGOLIA" CityName="Tes"/>
 	</CityNames>
 	<StartBiasTerrains>
-		<Row CivilizationType="CIVILIZATION_MONGOLIA" TerrainType="TERRAIN_PLAIN" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" TerrainType="TERRAIN_PLAINS" Tier="1"/>
 	</StartBiasTerrains>
 	<StartBiasRivers>
 		<Row CivilizationType="CIVILIZATION_MONGOLIA" Tier="4"/>

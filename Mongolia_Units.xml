@@ -13,7 +13,7 @@
     <Row CivUniqueUnitType="UNIT_KESHIK" ReplacesUnitType="UNIT_KNIGHT"/>
   </UnitReplaces>
   <Units>
-    <Row UnitType="UNIT_KESHIK" BaseMoves="5" Cost="120" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_KESHIK_NAME" Description="LOC_UNIT_KESHIK_DESCRIPTION" PurchaseYield="YIELD_GOLD" Range="2" Combat="30" RangedCombat="43" TraitType="TRAIT_CIVILIZATION_UNIT_KESHIK"/>
+    <Row UnitType="UNIT_KESHIK" BaseMoves="5" Cost="120" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_KESHIK_NAME" Description="LOC_UNIT_KESHIK_DESCRIPTION" PurchaseYield="YIELD_GOLD" Range="2" Combat="30" RangedCombat="43" TraitType="TRAIT_CIVILIZATION_UNIT_KESHIK" PrereqTech="TECH_STIRRUPS"/>
   </Units>
   <Types>
 	<Row Type="ABILITY_KESHIK" Kind="KIND_ABILITY"/>
