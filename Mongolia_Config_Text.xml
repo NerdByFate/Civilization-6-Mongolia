@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Row Tag="LOC_CIVILIZATION_MONGOLIA_NAME" Language="en_US">
+      <Text>Mongolia</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_GENGHIS_KHAN_NAME" Language="en_US">
+      <Text>Genghis Khan</Text>
+    </Row>
+   <Row Tag="LOC_TRAIT_CIVILIZATION_MONGOL_TERROR_NAME" Language="en_US">
+      <Text>Mongol Terror</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_MONGOL_TERROR_DESCRIPTION" Language="en_US">
+      <Text>+7 [ICON_Strength] for all units when fighting city states.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_THE_YAM_NAME" Language="en_US">
+      <Text>The Yam</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_THE_YAM_DESCRIPTION" Language="en_US">
+      <Text>All units have +1 movement when starting their turn in friendly territory.</Text>
+    </Row>
+   <Row Tag="LOC_UNIT_KESHIK_NAME" Language="en_US">
+      <Text>Keshik</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_KESHIK_DESCRIPTION" Language="en_US">
+      <Text>The Mongol unique ranged mounted unit. Replaces the Knight with slightly less [ICON_Strength] but 1 extra movement and the ability to move after attacking.</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

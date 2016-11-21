@@ -9,13 +9,13 @@
 	<Components>
 		<UpdateDatabase id="MONGOLIA_COMPONENT">
 			<Items>
-				<File>Mongolia_Buildings.xml</File> <!--DONE-->
-				<File>Mongolia_Civilizations.xml</File> <!--DONE-->
-				<File>Mongolia_Colours.xml</File> <!--DONE-->
-				<File>Mongolia_Gossip.xml</File> <!--DONE-->
-				<File>Mongolia_Leaders.xml</File> <!--DONE-->
-				<File>Mongolia_PlayerColours.xml</File> <!--DONE-->
-				<File>Mongolia_Units.xml</File> <!--DONE-->
+				<File>Mongolia_Buildings.xml</File>
+				<File>Mongolia_Civilizations.xml</File>
+				<File>Mongolia_Colours.xml</File>
+				<File>Mongolia_Gossip.xml</File>
+				<File>Mongolia_Leaders.xml</File>
+				<File>Mongolia_PlayerColours.xml</File>
+				<File>Mongolia_Units.xml</File>
 			</Items>
 		</UpdateDatabase>
 		<LocalizedText id="MONGOLIA_TEXT">
@@ -27,7 +27,7 @@
 	<Settings>
 		<Custom id="MONGOLIA_SETTING">
 			<Items>
-				<File>Mongolia_Config.xml</File> <!--DONE-->
+				<File>Mongolia_Config.xml</File>
 			</Items>
 		</Custom>
 		<LocalizedText id="MONGOLIA_SETTING_TEXT">
@@ -44,7 +44,7 @@
 			<en_US>Dominate Asia as the Mongols.</en_US>
 		</Text>
 		<Text id="LOC_MONGOLIA_DESC">
-			<en_US>A mod that adds the Mongol Civilization led by Genghis Khan</en_US>
+			<en_US>A mod that adds the Mongol Empire led by Genghis Khan</en_US>
 		</Text>
 		<Text id="LOC_MONGOLIA_AUTHOR">
 			<en_US>NerdByFate</en_US>
