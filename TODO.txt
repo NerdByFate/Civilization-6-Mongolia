@@ -1,0 +1,7 @@
+1. Replace other with Mongolia
+	Civilization Ability - Mongol Terror (similar to Civ 5, same as Germany in Civ 6) DONE
+	Leader Ability - The Yam (+1 movement when starting in friendly territory) DONE
+2. Add Images
+3. Add Music
+	
+4. Profit

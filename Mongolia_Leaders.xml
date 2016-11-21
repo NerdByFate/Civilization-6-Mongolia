@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="LEADER_GENGHIS_KHAN" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_THE_YAM" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_GENGHIS_KHAN" Name="LOC_LEADER_GENGHIS_KHAN_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_GENGHIS_KHAN" AgendaType="AGENDA_IRON_CROWN"/>
+	</HistoricalAgendas>
+	<AiListTypes>
+		<Row ListType="GenghisCivics"/>
+		<Row ListType="GenghisTechs"/>
+		<Row ListType="GenghisWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="GenghisWonders" LeaderType="TRAIT_LEADER_THE_YAM" System="Buildings"/>
+		<Row ListType="GenghisCivics" LeaderType="TRAIT_LEADER_THE_YAM" System="Civics"/>
+		<Row ListType="GenghisTechs" LeaderType="TRAIT_LEADER_THE_YAM" System="Technologies"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="GenghisWonders" Item="BUILDING_OXFORD_UNIVERSITY"/>
+		<Row ListType="GenghisCivics" Item="CIVIC_MEDIEVAL_FAIRES"/>
+		<Row ListType="GenghisCivics" Item="CIVIC_EARLY_EMPIRE"/>
+		<Row ListType="GenghisCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="GenghisCivics" Item="CIVIC_THE_ENLIGHTENMENT"/>
+		<Row ListType="GenghisCivics" Item="CIVIC_CIVIL_ENGINEERING"/>
+		<Row ListType="GenghisCivics" Item="CIVIC_CLASS_STRUGGLE"/>
+		<Row ListType="GenghisTechs" Item="TECH_NUCLEAR_FUSION"/>
+		<Row ListType="GenghisTechs" Item="TECH_NUCLEAR_FISSION"/>
+	</AiFavoredItems>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_GENGHIS_KHAN" TraitType="TRAIT_LEADER_THE_YAM"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_THE_YAM" Name="LOC_TRAIT_LEADER_THE_YAM_NAME" Description="LOC_TRAIT_LEADER_THE_YAM_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_THE_YAM" ModifierId="TRAIT_FRIENDLY_START_BONUS"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_FRIENDLY_START_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>FRIENDLY_START_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_FRIENDLY_TERRITORY_START_MOVEMENT</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_FRIENDLY_START_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FRIENDLY_START_BONUS</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>FRIENDLY_START_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FRIENDLY_START_BONUS</ModifierId>
+			<Name>Description</Name>
+			<Value>+1 movement for all units starting their turn in friendly territory.</Value>
+		</Row>
+	</ModifierArguments>
+	<ModifierStrings>
+		<Row ModifierId="FRIENDLY_START_MODIFIER" Context="Preview" Text="LOC_PROMOTION_FRIENDLY_START_DESCRIPTION"/>
+	</ModifierStrings>
+</GameInfo>
