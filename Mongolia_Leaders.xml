@@ -21,13 +21,16 @@
 		<Row ListType="GenghisTechs" LeaderType="TRAIT_LEADER_THE_YAM" System="Technologies"/>
 	</AiLists>
 	<AiFavoredItems>
-		<Row ListType="GenghisWonders" Item="BUILDING_OXFORD_UNIVERSITY"/>
-		<Row ListType="GenghisCivics" Item="CIVIC_MEDIEVAL_FAIRES"/>
+		<Row ListType="GenghisWonders" Item="BUILDING_TERRACOTTA_ARMY"/>
+		<Row ListType="GenghisCivics" Item="CIVIC_FEUDALISM"/>
 		<Row ListType="GenghisCivics" Item="CIVIC_EARLY_EMPIRE"/>
 		<Row ListType="GenghisCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
 		<Row ListType="GenghisCivics" Item="CIVIC_THE_ENLIGHTENMENT"/>
 		<Row ListType="GenghisCivics" Item="CIVIC_CIVIL_ENGINEERING"/>
-		<Row ListType="GenghisCivics" Item="CIVIC_CLASS_STRUGGLE"/>
+		<Row ListType="GenghisCivics" Item="CIVIC_TOTALITARIANISM"/>
+		<Row ListType="GenghisTechs" Item="TECH_STIRRUPS"/>
+		<Row ListType="GenghisTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="GenghisTechs" Item="TECH_MILITARY_SCIENCE"/>
 		<Row ListType="GenghisTechs" Item="TECH_NUCLEAR_FUSION"/>
 		<Row ListType="GenghisTechs" Item="TECH_NUCLEAR_FISSION"/>
 	</AiFavoredItems>
