@@ -1,6 +1,6 @@
 1. Replace other with Mongolia
 	Civilization Ability - Mongol Terror (similar to Civ 5, same as Germany in Civ 6) DONE
-	Leader Ability - Threatening Impression (Can levy city state ally militaries at no cost) DONE
+	Leader Ability - Threatening Impression (Can levy the military of allied city states at a 10% discount) DONE
 	Add Khan
 2. Add Images
 3. Add Music

@@ -22,17 +22,20 @@
 	</AiLists>
 	<AiFavoredItems>
 		<Row ListType="GenghisWonders" Item="BUILDING_TERRACOTTA_ARMY"/>
-		<Row ListType="GenghisCivics" Item="CIVIC_FEUDALISM"/>
+		<Row ListType="GenghisCivics" Item="CIVIC_MEDIEVAL_FAIRES"/>
 		<Row ListType="GenghisCivics" Item="CIVIC_EARLY_EMPIRE"/>
 		<Row ListType="GenghisCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
 		<Row ListType="GenghisCivics" Item="CIVIC_THE_ENLIGHTENMENT"/>
 		<Row ListType="GenghisCivics" Item="CIVIC_CIVIL_ENGINEERING"/>
+		<Row ListType="GenghisCivics" Item="CIVIC_DEFENSIVE_TACTICS"/>
 		<Row ListType="GenghisCivics" Item="CIVIC_TOTALITARIANISM"/>
-		<Row ListType="GenghisTechs" Item="TECH_STIRRUPS"/>
-		<Row ListType="GenghisTechs" Item="TECH_MILITARY_ENGINEERING"/>
-		<Row ListType="GenghisTechs" Item="TECH_MILITARY_SCIENCE"/>
 		<Row ListType="GenghisTechs" Item="TECH_NUCLEAR_FUSION"/>
 		<Row ListType="GenghisTechs" Item="TECH_NUCLEAR_FISSION"/>
+		<Row ListType="GenghisTechs" Item="TECH_STIRRUPS"/>
+		<Row ListType="GenghisTechs" Item="TECH_MILITARY_SCIENCE"/>
+		<Row ListType="GenghisTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="GenghisTechs" Item="TECH_BRONZE_WORKING"/>
+		<Row ListType="GenghisTechs" Item="TECH_METAL_CASTING"/>
 	</AiFavoredItems>
 	<LeaderTraits>
 		<Row LeaderType="LEADER_GENGHIS_KHAN" TraitType="TRAIT_LEADER_THREATENING_IMPRESSION"/>
@@ -41,24 +44,19 @@
 		<Row TraitType="TRAIT_LEADER_THREATENING_IMPRESSION" Name="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_NAME" Description="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_LEADER_THREATENING_IMPRESSION" ModifierId="TRAIT_LEVY_FREE_BONUS"/>
+		<Row TraitType="TRAIT_LEADER_THREATENING_IMPRESSION" ModifierId="TRAIT_LEVY_DISCOUNT"/>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
-			<ModifierId>TRAIT_LEVY_FREE_BONUS</ModifierId>
+			<ModifierId>TRAIT_LEVY_DISCOUNT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_LEVY_DISCOUNT_PERCENT</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
-			<ModifierId>TRAIT_LEVY_FREE_BONUS</ModifierId>
+			<ModifierId>TRAIT_LEVY_DISCOUNT</ModifierId>
 			<Name>Percent</Name>
-			<Value>99</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_LEVY_FREE_BONUS</ModifierId>
-			<Name>Description</Name>
-			<Value>Can levy the military of allied city states at no cost.</Value>
+			<Value>10</Value>
 		</Row>
 	</ModifierArguments>
 </GameInfo>

@@ -16,8 +16,8 @@
     <Row Tag="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_NAME" Language="en_US">
       <Text>Threatening Impression</Text>
     </Row>
-    <Row Tag="LOC_TRAIT_LEADER_THE_YAM_DESCRIPTION" Language="en_US">
-      <Text>Can levy the military of friendly city states at no cost.</Text>
+    <Row Tag="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_DESCRIPTION" Language="en_US">
+      <Text>Can levy the military of allied city states at a 10% discount.</Text>
     </Row>
    <Row Tag="LOC_UNIT_KESHIK_NAME" Language="en_US">
       <Text>Keshik</Text>

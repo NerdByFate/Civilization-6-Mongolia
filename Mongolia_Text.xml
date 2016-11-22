@@ -26,7 +26,7 @@
 		<Text>Threatening Impression</Text>
     </Row>
     <Row Tag="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_DESCRIPTION" Language="en_US">
-		<Text>Can levy the military of friendly city states at no cost.</Text>
+		<Text>Can levy the military of allied city states at a 10% discount.</Text>
     </Row>
     <Row Tag="LOC_CIVILIZATION_MONGOLIA_DESCRIPTION" Language="en_US">
 		<Text>Mongol Empire</Text>
