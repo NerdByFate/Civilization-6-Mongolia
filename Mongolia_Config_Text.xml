@@ -13,11 +13,11 @@
     <Row Tag="LOC_TRAIT_CIVILIZATION_MONGOL_TERROR_DESCRIPTION" Language="en_US">
       <Text>+7 [ICON_Strength] for all units when fighting city states.</Text>
     </Row>
-    <Row Tag="LOC_TRAIT_LEADER_THE_YAM_NAME" Language="en_US">
-      <Text>The Yam</Text>
+    <Row Tag="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_NAME" Language="en_US">
+      <Text>Threatening Impression</Text>
     </Row>
     <Row Tag="LOC_TRAIT_LEADER_THE_YAM_DESCRIPTION" Language="en_US">
-      <Text>All units have +1 movement when starting their turn in friendly territory.</Text>
+      <Text>Can levy the military of friendly city states at no cost.</Text>
     </Row>
    <Row Tag="LOC_UNIT_KESHIK_NAME" Language="en_US">
       <Text>Keshik</Text>

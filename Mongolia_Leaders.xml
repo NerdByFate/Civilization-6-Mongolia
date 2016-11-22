@@ -2,7 +2,7 @@
 <GameInfo>
 	<Types>
 		<Row Type="LEADER_GENGHIS_KHAN" Kind="KIND_LEADER"/>
-		<Row Type="TRAIT_LEADER_THE_YAM" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_THREATENING_IMPRESSION" Kind="KIND_TRAIT"/>
 	</Types>
 	<Leaders>
 		<Row LeaderType="LEADER_GENGHIS_KHAN" Name="LOC_LEADER_GENGHIS_KHAN_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
@@ -16,9 +16,9 @@
 		<Row ListType="GenghisWonders"/>
 	</AiListTypes>
 	<AiLists>
-		<Row ListType="GenghisWonders" LeaderType="TRAIT_LEADER_THE_YAM" System="Buildings"/>
-		<Row ListType="GenghisCivics" LeaderType="TRAIT_LEADER_THE_YAM" System="Civics"/>
-		<Row ListType="GenghisTechs" LeaderType="TRAIT_LEADER_THE_YAM" System="Technologies"/>
+		<Row ListType="GenghisWonders" LeaderType="TRAIT_LEADER_THREATENING_IMPRESSION" System="Buildings"/>
+		<Row ListType="GenghisCivics" LeaderType="TRAIT_LEADER_THREATENING_IMPRESSION" System="Civics"/>
+		<Row ListType="GenghisTechs" LeaderType="TRAIT_LEADER_THREATENING_IMPRESSION" System="Technologies"/>
 	</AiLists>
 	<AiFavoredItems>
 		<Row ListType="GenghisWonders" Item="BUILDING_TERRACOTTA_ARMY"/>
@@ -35,42 +35,30 @@
 		<Row ListType="GenghisTechs" Item="TECH_NUCLEAR_FISSION"/>
 	</AiFavoredItems>
 	<LeaderTraits>
-		<Row LeaderType="LEADER_GENGHIS_KHAN" TraitType="TRAIT_LEADER_THE_YAM"/>
+		<Row LeaderType="LEADER_GENGHIS_KHAN" TraitType="TRAIT_LEADER_THREATENING_IMPRESSION"/>
 	</LeaderTraits>
 	<Traits>
-		<Row TraitType="TRAIT_LEADER_THE_YAM" Name="LOC_TRAIT_LEADER_THE_YAM_NAME" Description="LOC_TRAIT_LEADER_THE_YAM_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_THREATENING_IMPRESSION" Name="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_NAME" Description="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
-		<Row TraitType="TRAIT_LEADER_THE_YAM" ModifierId="TRAIT_FRIENDLY_START_BONUS"/>
+		<Row TraitType="TRAIT_LEADER_THREATENING_IMPRESSION" ModifierId="TRAIT_LEVY_FREE_BONUS"/>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
-			<ModifierId>TRAIT_FRIENDLY_START_BONUS</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>FRIENDLY_START_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_FRIENDLY_TERRITORY_START_MOVEMENT</ModifierType>
+			<ModifierId>TRAIT_LEVY_FREE_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_LEVY_DISCOUNT_PERCENT</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
-			<ModifierId>TRAIT_FRIENDLY_START_BONUS</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
+			<ModifierId>TRAIT_LEVY_FREE_BONUS</ModifierId>
+			<Name>Percent</Name>
+			<Value>99</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FRIENDLY_START_BONUS</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>FRIENDLY_START_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_FRIENDLY_START_BONUS</ModifierId>
+			<ModifierId>TRAIT_LEVY_FREE_BONUS</ModifierId>
 			<Name>Description</Name>
-			<Value>+1 movement for all units starting their turn in friendly territory.</Value>
+			<Value>Can levy the military of allied city states at no cost.</Value>
 		</Row>
 	</ModifierArguments>
-	<ModifierStrings>
-		<Row ModifierId="FRIENDLY_START_MODIFIER" Context="Preview" Text="LOC_PROMOTION_FRIENDLY_START_DESCRIPTION"/>
-	</ModifierStrings>
 </GameInfo>
