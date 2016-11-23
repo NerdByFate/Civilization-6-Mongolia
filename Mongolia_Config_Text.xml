@@ -29,7 +29,7 @@
 		<Text>Khan</Text>
     </Row>
     <Row Tag="LOC_UNIT_KHAN_DESCRIPTION" Language="en_US">
-		<Text>The Mongol unique support unit. Provides 7 extra healing per turn, enables full wall damage, and provides 4 [ICON_Strength] strength to all adjacent units.</Text>
+		<Text>The Mongol unique support unit. Provides 7 extra healing per turn and enables full wall damage.</Text>
     </Row>
   </LocalizedText>
 </GameData>

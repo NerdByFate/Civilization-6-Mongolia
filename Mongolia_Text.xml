@@ -23,10 +23,13 @@
 		<Text>Khan</Text>
     </Row>
     <Row Tag="LOC_UNIT_KHAN_DESCRIPTION" Language="en_US">
-		<Text>The Mongol unique support unit. Provides 7 extra healing per turn, enables full wall damage, and provides 4 [ICON_Strength] strength to all adjacent units.</Text>
+		<Text>The Mongol unique support unit. Provides 17 extra healing per turn and enables full wall damage.</Text>
     </Row>
 	<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KESHIK_CHAPTER_HISTORY_PARA_1" Language="en_US">
 		<Text>In the 13th century the Mongols came boiling out of Central Asia, conquering most of Asia, Eastern Europe and a large portion of the Middle East by the end of the century. The Mongols' primary weapon was their incomparable horse archers, the Keshiks. The Mongols were nomadic tribesmen, and their children were almost literally "raised in the saddle." Riding on their small but hearty steppe ponies, the lightly-armed and armored Mongols could cover an astonishing amount of territory in a day, far outpacing any infantry or even the heavier European cavalry. In battle the Mongol Keshiks would shoot from horseback with deadly accuracy, disrupting and demoralizing the enemy formations. Once the enemy was suitably weakened, the Mongol heavy cavalry units would charge into the wavering foe to deliver the coup de grace. When facing armored European knights the Mongols would simply shoot their horses, then ignore or destroy the unhorsed men as they wished.</Text>
+	</Row>
+	<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KHAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+		<Text>Originally the Khans were tribal chieftains of the Mongol people, ruling anywhere from one tribe to a loose confederation of many smaller ones. At the time of Genghis' rise to power, the title was generally reserved for military leaders, but was later used to denote the civil leaders of the Mongolian Empire as well. The Khans were the elected rulers of the empire provinces, holding their titles based on merit and loyalty rather than blood ties. These leaders often served as generals as well, leading the large Mongolian armies in their successful raids and conquests. Later, an extension of the word was created, "Khagan," to denote the grand ruler, the Khan of Khans so to speak, but this wasn't used until after Genghis Khan's death in 1227 AD.</Text>
 	</Row>
     <Row Tag="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_NAME" Language="en_US">
 		<Text>Threatening Impression</Text>
