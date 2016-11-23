@@ -40,7 +40,7 @@
 		<Row>
 			<ModifierId>COMBAT_CITY_STATE_BONUS_MODIFIER</ModifierId>
 			<Name>Amount</Name>
-			<Value>7</Value>
+			<Value>11</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_CITY_STATE_COMBAT_BONUS</ModifierId>

@@ -11,7 +11,7 @@
 		<Text>Mongol Terror</Text>
     </Row>
     <Row Tag="LOC_TRAIT_CIVILIZATION_MONGOL_TERROR_DESCRIPTION" Language="en_US">
-		<Text>+7 [ICON_Strength] for all units when fighting city states.</Text>
+		<Text>+11 [ICON_Strength] for all units when fighting city states.</Text>
     </Row>
 	<Row Tag="LOC_UNIT_KESHIK_NAME" Language="en_US">
 		<Text>Keshik</Text>
