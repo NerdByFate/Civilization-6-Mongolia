@@ -31,11 +31,11 @@
 	<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KHAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
 		<Text>Originally the Khans were tribal chieftains of the Mongol people, ruling anywhere from one tribe to a loose confederation of many smaller ones. At the time of Genghis' rise to power, the title was generally reserved for military leaders, but was later used to denote the civil leaders of the Mongolian Empire as well. The Khans were the elected rulers of the empire provinces, holding their titles based on merit and loyalty rather than blood ties. These leaders often served as generals as well, leading the large Mongolian armies in their successful raids and conquests. Later, an extension of the word was created, "Khagan," to denote the grand ruler, the Khan of Khans so to speak, but this wasn't used until after Genghis Khan's death in 1227 AD.</Text>
 	</Row>
-    <Row Tag="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_NAME" Language="en_US">
-		<Text>Threatening Impression</Text>
+    <Row Tag="LOC_TRAIT_LEADER_THE_YAM_NAME" Language="en_US">
+		<Text>The Yam</Text>
     </Row>
-    <Row Tag="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_DESCRIPTION" Language="en_US">
-		<Text>Can levy the military of allied city states at a 10% discount.</Text>
+    <Row Tag="LOC_TRAIT_LEADER_THE_YAM_DESCRIPTION" Language="en_US">
+		<Text>Receives 25% less war weariness than what is usual.</Text>
     </Row>
     <Row Tag="LOC_CIVILIZATION_MONGOLIA_DESCRIPTION" Language="en_US">
 		<Text>Mongol Empire</Text>
@@ -57,9 +57,6 @@
 	</Row>
 	<Row Tag="LOC_PROMOTION_CITY_STATE_COMBAT_DESCRIPTION" Language="en_US">
 		<Text>+7 [ICON_Strength] vs. city states.</Text>
-	</Row>
-	<Row Tag="LOC_PROMOTION_COMBAT_ADJACENT_DESCRIPTION" Language="en_US">
-		<Text>+4 [ICON_Strength] for all units adjacent to a Khan.</Text>
 	</Row>
   </LocalizedText>
 </GameData>

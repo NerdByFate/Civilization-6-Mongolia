@@ -13,11 +13,11 @@
     <Row Tag="LOC_TRAIT_CIVILIZATION_MONGOL_TERROR_DESCRIPTION" Language="en_US">
 		<Text>+7 [ICON_Strength] for all units when fighting city states.</Text>
     </Row>
-    <Row Tag="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_NAME" Language="en_US">
-		<Text>Threatening Impression</Text>
+    <Row Tag="LOC_TRAIT_LEADER_THE_YAM_NAME" Language="en_US">
+		<Text>The Yam</Text>
     </Row>
-    <Row Tag="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_DESCRIPTION" Language="en_US">
-		<Text>Can levy the military of allied city states at a 10% discount.</Text>
+    <Row Tag="LOC_TRAIT_LEADER_THE_YAM_DESCRIPTION" Language="en_US">
+		<Text>Receives 25% less war weariness than what is usual.</Text>
     </Row>
 	<Row Tag="LOC_UNIT_KESHIK_NAME" Language="en_US">
 		<Text>Keshik</Text>
