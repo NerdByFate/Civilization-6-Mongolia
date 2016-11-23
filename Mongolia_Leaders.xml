@@ -43,20 +43,4 @@
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_THREATENING_IMPRESSION" Name="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_NAME" Description="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_DESCRIPTION"/>
 	</Traits>
-	<TraitModifiers>
-		<Row TraitType="TRAIT_LEADER_THREATENING_IMPRESSION" ModifierId="TRAIT_LEVY_DISCOUNT"/>
-	</TraitModifiers>
-	<Modifiers>
-		<Row>
-			<ModifierId>TRAIT_LEVY_DISCOUNT</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_ADJUST_LEVY_DISCOUNT_PERCENT</ModifierType>
-		</Row>
-	</Modifiers>
-	<ModifierArguments>
-		<Row>
-			<ModifierId>TRAIT_LEVY_DISCOUNT</ModifierId>
-			<Name>Percent</Name>
-			<Value>10</Value>
-		</Row>
-	</ModifierArguments>
 </GameInfo>

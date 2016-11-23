@@ -19,6 +19,12 @@
     <Row Tag="LOC_UNIT_KESHIK_DESCRIPTION" Language="en_US">
 		<Text>The Mongol unique ranged mounted unit. Replaces the Knight with slightly less [ICON_Strength] but 1 extra movement and the ability to move after attacking.</Text>
     </Row>
+	<Row Tag="LOC_UNIT_KHAN_NAME" Language="en_US">
+		<Text>Khan</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_KHAN_DESCRIPTION" Language="en_US">
+		<Text>The Mongol unique support unit. Provides 7 extra healing per turn, enables full wall damage, and provides 4 [ICON_Strength] strength to all adjacent units.</Text>
+    </Row>
 	<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_KESHIK_CHAPTER_HISTORY_PARA_1" Language="en_US">
 		<Text>In the 13th century the Mongols came boiling out of Central Asia, conquering most of Asia, Eastern Europe and a large portion of the Middle East by the end of the century. The Mongols' primary weapon was their incomparable horse archers, the Keshiks. The Mongols were nomadic tribesmen, and their children were almost literally "raised in the saddle." Riding on their small but hearty steppe ponies, the lightly-armed and armored Mongols could cover an astonishing amount of territory in a day, far outpacing any infantry or even the heavier European cavalry. In battle the Mongol Keshiks would shoot from horseback with deadly accuracy, disrupting and demoralizing the enemy formations. Once the enemy was suitably weakened, the Mongol heavy cavalry units would charge into the wavering foe to deliver the coup de grace. When facing armored European knights the Mongols would simply shoot their horses, then ignore or destroy the unhorsed men as they wished.</Text>
 	</Row>
@@ -48,6 +54,9 @@
 	</Row>
 	<Row Tag="LOC_PROMOTION_CITY_STATE_COMBAT_DESCRIPTION" Language="en_US">
 		<Text>+7 [ICON_Strength] vs. city states.</Text>
+	</Row>
+	<Row Tag="LOC_PROMOTION_COMBAT_ADJACENT_DESCRIPTION" Language="en_US">
+		<Text>+4 [ICON_Strength] for all units adjacent to a Khan.</Text>
 	</Row>
   </LocalizedText>
 </GameData>

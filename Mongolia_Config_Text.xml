@@ -2,28 +2,34 @@
 <GameData>
   <LocalizedText>
     <Row Tag="LOC_CIVILIZATION_MONGOLIA_NAME" Language="en_US">
-      <Text>Mongolia</Text>
+		<Text>Mongolia</Text>
     </Row>
     <Row Tag="LOC_LEADER_GENGHIS_KHAN_NAME" Language="en_US">
-      <Text>Genghis Khan</Text>
+		<Text>Genghis Khan</Text>
     </Row>
    <Row Tag="LOC_TRAIT_CIVILIZATION_MONGOL_TERROR_NAME" Language="en_US">
-      <Text>Mongol Terror</Text>
+		<Text>Mongol Terror</Text>
     </Row>
     <Row Tag="LOC_TRAIT_CIVILIZATION_MONGOL_TERROR_DESCRIPTION" Language="en_US">
-      <Text>+7 [ICON_Strength] for all units when fighting city states.</Text>
+		<Text>+7 [ICON_Strength] for all units when fighting city states.</Text>
     </Row>
     <Row Tag="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_NAME" Language="en_US">
-      <Text>Threatening Impression</Text>
+		<Text>Threatening Impression</Text>
     </Row>
     <Row Tag="LOC_TRAIT_LEADER_THREATENING_IMPRESSION_DESCRIPTION" Language="en_US">
-      <Text>Can levy the military of allied city states at a 10% discount.</Text>
+		<Text>Can levy the military of allied city states at a 10% discount.</Text>
     </Row>
-   <Row Tag="LOC_UNIT_KESHIK_NAME" Language="en_US">
-      <Text>Keshik</Text>
+	<Row Tag="LOC_UNIT_KESHIK_NAME" Language="en_US">
+		<Text>Keshik</Text>
     </Row>
     <Row Tag="LOC_UNIT_KESHIK_DESCRIPTION" Language="en_US">
-      <Text>The Mongol unique ranged mounted unit. Replaces the Knight with slightly less [ICON_Strength] but 1 extra movement and the ability to move after attacking.</Text>
+		<Text>The Mongol unique ranged mounted unit. Replaces the Knight with slightly less [ICON_Strength] but 1 extra movement and the ability to move after attacking.</Text>
+    </Row>
+	<Row Tag="LOC_UNIT_KHAN_NAME" Language="en_US">
+		<Text>Khan</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_KHAN_DESCRIPTION" Language="en_US">
+		<Text>The Mongol unique support unit. Provides 7 extra healing per turn, enables full wall damage, and provides 4 [ICON_Strength] strength to all adjacent units.</Text>
     </Row>
   </LocalizedText>
 </GameData>

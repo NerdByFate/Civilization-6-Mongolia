@@ -5,5 +5,6 @@
 	</Players>
 	<PlayerItems>
 		<Row CivilizationType="CIVILIZATION_MONGOLIA" LeaderType="LEADER_GENGHIS_KHAN" Type="UNIT_KESHIK" Icon="ICON_UNIT_KNIGHT" Name="LOC_UNIT_KESHIK_NAME" Description="LOC_UNIT_KESHIK_DESCRIPTION" SortIndex="10" />
+		<Row CivilizationType="CIVILIZATION_MONGOLIA" LeaderType="LEADER_GENGHIS_KHAN" Type="UNIT_KHAN" Icon="ICON_UNIT_SPANISH_CONQUISTADOR" Name="LOC_UNIT_KHAN_NAME" Description="LOC_UNIT_KHAN_DESCRIPTION" SortIndex="20" />
 	</PlayerItems>
 </GameInfo>
