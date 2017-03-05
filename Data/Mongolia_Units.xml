@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+  <Types>
+    <Row Type="UNIT_KESHIK" Kind="KIND_UNIT"/>
+	
+	<Row Type="UNIT_KHAN" Kind="KIND_UNIT"/>
+  </Types>
+  <UnitAiInfos>
+    <Row UnitType="UNIT_KESHIK" AiType="UNITAI_COMBAT"/>
+	<Row UnitType="UNIT_KESHIK" AiType="UNITAI_EXPLORE"/>
+	<Row UnitType="UNIT_KESHIK" AiType="UNITTYPE_RANGED"/>
+	<Row UnitType="UNIT_KESHIK" AiType="UNITTYPE_LAND_COMBAT"/>
+	
+	<Row UnitType="UNIT_KHAN" AiType="UNITTYPE_SIEGE_SUPPORT"/>
+  </UnitAiInfos>
+  <UnitReplaces>
+    <Row CivUniqueUnitType="UNIT_KESHIK" ReplacesUnitType="UNIT_KNIGHT"/>
+  </UnitReplaces>
+  <Units>
+    <Row UnitType="UNIT_KESHIK" BaseMoves="5" Cost="120" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" Name="LOC_UNIT_KESHIK_NAME" Description="LOC_UNIT_KESHIK_DESCRIPTION" PurchaseYield="YIELD_GOLD" Range="2" Combat="30" RangedCombat="43" Maintenance="1" TraitType="TRAIT_CIVILIZATION_UNIT_KESHIK" PrereqTech="TECH_STIRRUPS"/>
+	
+	<Row UnitType="UNIT_KHAN" BaseMoves="2" Cost="170" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_SUPPORT" Name="LOC_UNIT_KHAN_NAME" Description="LOC_UNIT_KHAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_SUPPORT" Maintenance="5" TraitType="TRAIT_CIVILIZATION_UNIT_KHAN" PrereqCivic="CIVIC_FEUDALISM"/>
+  </Units>
+  <Types>
+	<Row Type="ABILITY_KESHIK" Kind="KIND_ABILITY"/>
+	
+	<Row Type="ABILITY_KHAN_HEAL" Kind="KIND_ABILITY"/>
+	<Row Type="ABILITY_KHAN_WALL" Kind="KIND_ABILITY"/>
+  </Types>
+  <Tags>
+	<Row Tag="CLASS_KESHIK" Vocabulary="ABILITY_CLASS"/>
+	
+	<Row Tag="CLASS_KHAN" Vocabulary="ABILITY_CLASS"/>
+  </Tags>
+  <TypeTags>
+	<Row Type="UNIT_KESHIK" Tag="CLASS_LIGHT_CAVALRY"/>
+	<Row Type="UNIT_KESHIK" Tag="CLASS_KESHIK"/>
+	<Row Type="ABILITY_KESHIK" Tag="CLASS_KESHIK"/>
+	
+	<Row Type="UNIT_KHAN" Tag="CLASS_KHAN"/>
+	<Row Type="ABILITY_KHAN_HEAL" Tag="CLASS_KHAN"/>
+	<Row Type="ABILITY_KHAN_WALL" Tag="CLASS_KHAN"/>
+  </TypeTags>
+  <UnitAbilities>
+	<Row UnitAbilityType="ABILITY_KESHIK" Name="LOC_ABILITY_KESHIK_NAME" Description="LOC_ABILITY_KESHIK_DESCRIPTION"/>
+	
+	<Row UnitAbilityType="ABILITY_KHAN_HEAL" Name="LOC_ABILITY_KHAN_HEAL_NAME" Description="LOC_ABILITY_KHAN_HEAL_DESCRIPTION"/>
+	<Row UnitAbilityType="ABILITY_KHAN_WALL" Name="LOC_ABILITY_KHAN_WALL_NAME" Description="LOC_ABILITY_KHAN_WALL_DESCRIPTION"/>
+  </UnitAbilities>
+  <UnitAbilityModifiers>
+	<Row>
+		<UnitAbilityType>ABILITY_KESHIK</UnitAbilityType>
+		<ModifierId>KESHIK_MOVE_AND_ATTACK</ModifierId>
+	</Row>
+	
+	<Row>
+		<UnitAbilityType>ABILITY_KHAN_HEAL</UnitAbilityType>
+		<ModifierId>KHAN_INCREASE_HEAL_RATE</ModifierId>
+	</Row>
+	<Row>
+		<UnitAbilityType>ABILITY_KHAN_WALL</UnitAbilityType>
+		<ModifierId>ENABLE_KHAN_WALL_ATTACK</ModifierId>
+	</Row>
+  </UnitAbilityModifiers>
+  <Modifiers>
+	<Row>
+		<ModifierId>KESHIK_MOVE_AND_ATTACK</ModifierId>
+		<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ATTACK_AND_MOVE</ModifierType>
+	</Row>
+	
+	<Row>
+		<ModifierId>KHAN_INCREASE_HEAL_RATE</ModifierId>
+		<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_HEAL_PER_TURN</ModifierType>
+		<SubjectRequirementSetId>MEDIC_HEALING_REQUIREMENTS</SubjectRequirementSetId>
+	</Row>
+	<Row>
+		<ModifierId>ENABLE_KHAN_WALL_ATTACK</ModifierId>
+		<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_ENABLE_WALL_ATTACK</ModifierType>
+	</Row>
+  </Modifiers>
+  <ModifierArguments>
+	<Row>
+		<ModifierId>KESHIK_MOVE_AND_ATTACK</ModifierId>
+		<Name>CanMove</Name>
+		<Value>true</Value>
+	</Row>
+	
+	<Row>
+		<ModifierId>KHAN_INCREASE_HEAL_RATE</ModifierId>
+		<Name>Amount</Name>
+		<Value>17</Value>
+	</Row>
+	<Row>
+		<ModifierId>KHAN_INCREASE_HEAL_RATE</ModifierId>
+		<Name>Type</Name>
+		<Value>ALL</Value>
+	</Row>
+	<Row>
+		<ModifierId>ENABLE_KHAN_WALL_ATTACK</ModifierId>
+		<Name>Enable</Name>
+		<Value>true</Value>
+	</Row>
+  </ModifierArguments>
+</GameInfo>

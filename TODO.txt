@@ -1,8 +1,8 @@
-1. Replace other with Mongolia
+1. Replace other with Mongolia DONE
 	Civilization Ability - Mongol Terror (similar to Civ 5, same as Germany in Civ 6) DONE
 	Leader Ability - The Yam (Receives 25% less war weariness) DONE
 	Add Khan DONE
-2. Add Images
+2. Add Images DONE
 3. Add Music
 	Urtiin Duu
 4. Profit

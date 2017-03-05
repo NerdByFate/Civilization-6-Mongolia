@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!--Leader Icons-->
+		<Row Name="ICON_ATLAS_GENGHIS_KHAN" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Genghis32.dds"/>
+		<Row Name="ICON_ATLAS_GENGHIS_KHAN" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="Genghis45.dds"/>
+		<Row Name="ICON_ATLAS_GENGHIS_KHAN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Genghis50.dds"/>
+		<Row Name="ICON_ATLAS_GENGHIS_KHAN" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="Genghis55.dds"/>
+		<Row Name="ICON_ATLAS_GENGHIS_KHAN" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="Genghis64.dds"/>
+		<Row Name="ICON_ATLAS_GENGHIS_KHAN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Genghis80.dds"/>
+		<Row Name="ICON_ATLAS_GENGHIS_KHAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Genghis256.dds"/>
+		
+		<!--Civilization Icons-->
+		<Row Name="ICON_ATLAS_MONGOLIA" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Mongolia_Atlas22.dds"/>
+	    <Row Name="ICON_ATLAS_MONGOLIA" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="Mongolia_Atlas30.dds"/>
+		<Row Name="ICON_ATLAS_MONGOLIA" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="Mongolia_Atlas36.dds"/>
+		<Row Name="ICON_ATLAS_MONGOLIA" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="Mongolia_Atlas44.dds"/>
+		<Row Name="ICON_ATLAS_MONGOLIA" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Mongolia_Atlas45.dds"/>
+		<Row Name="ICON_ATLAS_MONGOLIA" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="Mongolia_Atlas48.dds"/>
+		<Row Name="ICON_ATLAS_MONGOLIA" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Mongolia_Atlas50.dds"/>
+		<Row Name="ICON_ATLAS_MONGOLIA" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Mongolia_Atlas64.dds"/>
+		<Row Name="ICON_ATLAS_MONGOLIA" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Mongolia_Atlas80.dds"/>
+		<Row Name="ICON_ATLAS_MONGOLIA" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Mongolia_Atlas256.dds"/>
+
+		<!--Unit Icons-->
+		<Row Name="ICON_ATLAS_KHAN_SYMBOL_WHITE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Khan22.dds"/>
+		<Row Name="ICON_ATLAS_KHAN_SYMBOL_WHITE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Khan32.dds"/>
+		<Row Name="ICON_ATLAS_KHAN_SYMBOL_BLACK" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Khan32.dds"/>
+		<Row Name="ICON_ATLAS_KHAN_SYMBOL_WHITE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Khan50.dds"/>
+		<Row Name="ICON_ATLAS_KHAN_SYMBOL_WHITE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Khan80.dds"/>
+		<Row Name="ICON_ATLAS_KHAN_SYMBOL_WHITE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Kha256.dds"/>
+		
+		<!--Unit Icons-->
+		<Row Name="ICON_ATLAS_KESHIK_SYMBOL_WHITE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Keshik22.dds"/>
+		<Row Name="ICON_ATLAS_KESHIK_SYMBOL_WHITE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Keshik32.dds"/>
+		<Row Name="ICON_ATLAS_KESHIK_SYMBOL_BLACK" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Keshik32.dds"/>
+		<Row Name="ICON_ATLAS_KESHIK_SYMBOL_WHITE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Keshik50.dds"/>
+		<Row Name="ICON_ATLAS_KESHIK_SYMBOL_WHITE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Keshik80.dds"/>
+		<Row Name="ICON_ATLAS_KESHIK_SYMBOL_WHITE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Kes256.dds"/>
+	</IconTextureAtlases>
+	
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_MONGOLIA" Atlas="ICON_ATLAS_MONGOLIA" Index="0"/>
+		
+		<Row Name="ICON_LEADER_GENGHIS_KHAN" Atlas="ICON_ATLAS_GENGHIS_KHAN" Index="0"/>
+		
+		<Row Name="ICON_UNIT_KHAN" Atlas="ICON_ATLAS_KHAN_SYMBOL_WHITE" Index="0"/>
+		<Row Name="ICON_UNIT_KHAN" Atlas="ICON_ATLAS_KHAN_SYMBOL_BLACK" Index="0"/>
+		
+		<Row Name="ICON_UNIT_KESHIK" Atlas="ICON_ATLAS_KESHIK_SYMBOL_WHITE" Index="0"/>
+		<Row Name="ICON_UNIT_KESHIK" Atlas="ICON_ATLAS_KESHIK_SYMBOL_BLACK" Index="0"/>
+	</IconDefinitions>
+</GameData>
