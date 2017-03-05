@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="ec20ae4b-038d-4836-9b22-853325d74a19" version="1">
+  <Properties>
+    <Name>Civilization 6: Mongolia</Name>
+    <Description>A mod that adds the Mongol Empire led by Genghis Khan.</Description>
+    <Teaser>Dominate Asia as the Mongols!</Teaser>
+    <Authors>NerdByFate</Authors>
+    <Homepage>https://forums.civfanatics.com/threads/civilization-6-mongolia.605836/</Homepage>
+  </Properties>
+  <ActionCriteria>
+    <Criteria id="MongoliaCriteria" />
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="Config">
+      <File>Data/Mongolia_Config.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="ConfigText">
+      <File>Data/Mongolia_Config_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <File>Data/Mongolia_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <File>Mongolia.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="Gameplay">
+      <Criteria>MongoliaCriteria</Criteria>
+      <File>Data/Mongolia_Buildings.xml</File>
+      <File>Data/Mongolia_Civilizations.xml</File>
+      <File>Data/Mongolia_Colours.xml</File>
+      <File>Data/Mongolia_Gossip.xml</File>
+      <File>Data/Mongolia_Leaders.xml</File>
+      <File>Data/Mongolia_PlayerColours.xml</File>
+      <File>Data/Mongolia_Units.xml</File>
+    </UpdateDatabase>
+    <UpdateText id="Text">
+      <Criteria>MongoliaCriteria</Criteria>
+      <File>Data/Mongolia_Config_Text.xml</File>
+      <File>Data/Mongolia_Text.xml</File>
+    </UpdateText>
+    <UpdateIcons id="Icons">
+      <Criteria>MongoliaCriteria</Criteria>
+      <File>Data/Mongolia_Icons.xml</File>
+    </UpdateIcons>
+    <UpdateArt id="Art">
+      <Criteria>MongoliaCriteria</Criteria>
+      <File>Mongolia.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>ArtDefs/FallbackLeaders.artdef</File>
+    <File>ArtDefs/Leaders.artdef</File>
+    <File>Data/Mongolia_Buildings.xml</File>
+    <File>Data/Mongolia_Civilizations.xml</File>
+    <File>Data/Mongolia_Colours.xml</File>
+    <File>Data/Mongolia_Config.xml</File>
+    <File>Data/Mongolia_Config_Text.xml</File>
+    <File>Data/Mongolia_Gossip.xml</File>
+    <File>Data/Mongolia_Icons.xml</File>
+    <File>Data/Mongolia_Leaders.xml</File>
+    <File>Data/Mongolia_PlayerColours.xml</File>
+    <File>Data/Mongolia_Text.xml</File>
+    <File>Data/Mongolia_Units.xml</File>
+    <File>Mongolia.dep</File>
+    <File>Platforms/MacOS/BLPs/Icons.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderBackgrounds.blp</File>
+    <File>Platforms/MacOS/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/MacOS/BLPs/Leader_Genghis_Khan.blp</File>
+    <File>Platforms/MacOS/BLPs/UILeaders.blp</File>
+    <File>Platforms/Windows/BLPs/Icons.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderBackgrounds.blp</File>
+    <File>Platforms/Windows/BLPs/LeaderFallbacks.blp</File>
+    <File>Platforms/Windows/BLPs/Leader_Genghis_Khan.blp</File>
+    <File>Platforms/Windows/BLPs/UILeaders.blp</File>
+    <File>Textures/ART_LEADER_GENG.dds</File>
+    <File>Textures/FALLBACK_NEUTRAL_GENGHISKHAN.dds</File>
+    <File>Textures/Genghis256.dds</File>
+    <File>Textures/Genghis32.dds</File>
+    <File>Textures/Genghis45.dds</File>
+    <File>Textures/Genghis50.dds</File>
+    <File>Textures/Genghis55.dds</File>
+    <File>Textures/Genghis64.dds</File>
+    <File>Textures/Genghis80.dds</File>
+    <File>Textures/Kes256.dds</File>
+    <File>Textures/Keshik22.dds</File>
+    <File>Textures/Keshik32.dds</File>
+    <File>Textures/Keshik50.dds</File>
+    <File>Textures/Keshik80.dds</File>
+    <File>Textures/Kha256.dds</File>
+    <File>Textures/Khan22.dds</File>
+    <File>Textures/Khan32.dds</File>
+    <File>Textures/Khan50.dds</File>
+    <File>Textures/Khan80.dds</File>
+    <File>Textures/LEADER_GENGHIS_KHAN_BACKGROUND.dds</File>
+    <File>Textures/LEADER_GENGHIS_KHAN_NEUTRAL.dds</File>
+    <File>Textures/Mongolia_Atlas22.dds</File>
+    <File>Textures/Mongolia_Atlas256.dds</File>
+    <File>Textures/Mongolia_Atlas30.dds</File>
+    <File>Textures/Mongolia_Atlas36.dds</File>
+    <File>Textures/Mongolia_Atlas44.dds</File>
+    <File>Textures/Mongolia_Atlas45.dds</File>
+    <File>Textures/Mongolia_Atlas48.dds</File>
+    <File>Textures/Mongolia_Atlas50.dds</File>
+    <File>Textures/Mongolia_Atlas64.dds</File>
+    <File>Textures/Mongolia_Atlas80.dds</File>
+    <File>TODO.txt</File>
+  </Files>
+</Mod>

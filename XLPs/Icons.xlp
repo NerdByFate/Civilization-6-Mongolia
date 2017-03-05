@@ -13,6 +13,110 @@
 			<m_EntryID text="Genghis256"/>
 			<m_ObjectName text="Genghis256"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Genghis80"/>
+			<m_ObjectName text="Genghis80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Genghis64"/>
+			<m_ObjectName text="Genghis64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Genghis55"/>
+			<m_ObjectName text="Genghis55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Genghis50"/>
+			<m_ObjectName text="Genghis50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Genghis45"/>
+			<m_ObjectName text="Genghis45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Genghis32"/>
+			<m_ObjectName text="Genghis32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Kes256"/>
+			<m_ObjectName text="Kes256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Keshik80"/>
+			<m_ObjectName text="Keshik80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Keshik50"/>
+			<m_ObjectName text="Keshik50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Keshik32"/>
+			<m_ObjectName text="Keshik32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Keshik22"/>
+			<m_ObjectName text="Keshik22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Kha256"/>
+			<m_ObjectName text="Kha256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Khan80"/>
+			<m_ObjectName text="Khan80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Khan50"/>
+			<m_ObjectName text="Khan50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Khan32"/>
+			<m_ObjectName text="Khan32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Khan22"/>
+			<m_ObjectName text="Khan22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mongolia_Atlas256"/>
+			<m_ObjectName text="Mongolia_Atlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mongolia_Atlas80"/>
+			<m_ObjectName text="Mongolia_Atlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mongolia_Atlas64"/>
+			<m_ObjectName text="Mongolia_Atlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mongolia_Atlas50"/>
+			<m_ObjectName text="Mongolia_Atlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mongolia_Atlas48"/>
+			<m_ObjectName text="Mongolia_Atlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mongolia_Atlas45"/>
+			<m_ObjectName text="Mongolia_Atlas45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mongolia_Atlas44"/>
+			<m_ObjectName text="Mongolia_Atlas44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mongolia_Atlas36"/>
+			<m_ObjectName text="Mongolia_Atlas36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mongolia_Atlas30"/>
+			<m_ObjectName text="Mongolia_Atlas30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Mongolia_Atlas22"/>
+			<m_ObjectName text="Mongolia_Atlas22"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
