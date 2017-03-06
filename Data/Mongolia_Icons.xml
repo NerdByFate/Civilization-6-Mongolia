@@ -30,7 +30,6 @@
 		<Row Name="ICON_ATLAS_KHAN_SYMBOL_WHITE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Khan80.dds"/>
 		<Row Name="ICON_ATLAS_KHAN_SYMBOL_WHITE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Kha256.dds"/>
 		
-		<!--Unit Icons-->
 		<Row Name="ICON_ATLAS_KESHIK_SYMBOL_WHITE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Keshik22.dds"/>
 		<Row Name="ICON_ATLAS_KESHIK_SYMBOL_WHITE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Keshik32.dds"/>
 		<Row Name="ICON_ATLAS_KESHIK_SYMBOL_BLACK" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Keshik32.dds"/>
